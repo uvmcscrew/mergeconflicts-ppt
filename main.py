@@ -2,11 +2,11 @@ from BloomFilter import BloomFilter
 
 bloom_filter = BloomFilter()
 
-bloom_filter.add("alice")
-bloom_filter.add("bob")
-bloom_filter.add("carol")
-bloom_filter.add("dan")
-bloom_filter.add("erin")
+bloom_filter.add("layla")
+bloom_filter.add("ruth")
+bloom_filter.add("gregory")
+bloom_filter.add("raine")
+bloom_filter.add("atticus")
 
-print(bloom_filter.has("bob"))
-print(bloom_filter.has("test"))
+print(bloom_filter.has("cscrew"))
+print(bloom_filter.has("raine"))
